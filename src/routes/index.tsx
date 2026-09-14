@@ -152,7 +152,7 @@ function ProductCard({ product }: { product: (typeof products)[number] }) {
           width={900}
           height={700}
           loading="lazy"
-          className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.025]"
+          className="h-full w-full object-contain transition-transform duration-700 group-hover:scale-[1.025]"
         />
         <Button
           variant="elegant"
